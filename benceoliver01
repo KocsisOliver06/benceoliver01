@@ -1,8 +1,28 @@
+
+cd
+Egy adott mappába lép be
+
+dir
+Megmutatja melyik mappában vagyunk
+
+mkdir
+Mappát csinál
+
+git clone
+Egy repositoryt lemásol a mappába
+
+git commit
+Elmenti a jelenlegi helyzetet a mappába
+
+git push
+Elküldi a repositoryba a mentést
+
 git init=
 A git init parancsot egy új git tárhely inicializálására vagy egy meglévő újrainicializálására használják. A
 git init parancs átalakítja az aktuális könyvtárat egy Git tárolóvá, azaz egy . 
 git könyvtár az objektumok alkönyvtáraival, refs/heads, re
 fs/tags és sablonfájlokkal. Ez egy új fő ágat is létrehoz.
+
 
 git add=
 A git add parancs egy változást ad a munkakönyvtárban az állomásozási területhez.
