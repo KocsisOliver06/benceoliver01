@@ -1,11 +1,33 @@
 git init=
-A git init parancsot egy új git tárhely inicializálására vagy egy meglévő újrainicializálására használják. A git init parancs átalakítja az aktuális könyvtárat egy Git tárolóvá, azaz egy . git könyvtár az objektumok alkönyvtáraival, refs/heads, refs/tags és sablonfájlokkal. Ez egy új fő ágat is létrehoz.
-git add= 
+A git init parancsot egy új git tárhely inicializálására vagy egy meglévő újrainicializálására használják. A
+git init parancs átalakítja az aktuális könyvtárat egy Git tárolóvá, azaz egy . 
+git könyvtár az objektumok alkönyvtáraival, refs/heads, re
+fs/tags és sablonfájlokkal. Ez egy új fő ágat is létrehoz.
 
+git add=
+A git add parancs egy változást ad a munkakönyvtárban az állomásozási területhez.
+Azt mondja a Gitnek, hogy egy adott fájl frissítéseit szeretné belefoglalni a következő véglegesítésbe.
 
+git commit=
+A véglegesítések a Git projekt idővonalának alapvető építőelemei. A commitokat pillanatképeknek vagy mérföldköveknek tekinthetjü
+k a Git-projekt idővonala mentén. A véglegesítések a git commit paranccsal jönnek létre,
+hogy rögzítsék a projekt adott időpontban fennálló állapotát.
 
+git pull=
+A git pull parancs a tartalom lekérésére és letöltésére szolgál egy távoli lerakatból, és azonnal frissíti a 
+helyi tárat, hogy megfeleljen a tartalomnak.
 
+git remote add=
+A git remote add parancs egy új távoli lerakat hozzáadására szolgál a helyi Git lerakathoz.
+Ez a parancs egy új távoli hivatkozást hoz létre a helyi lerakat konfigur
+ációjában, amely a megadott URL-re mutat. Ha a távoli hivatkozás már létezik, akkor az új URL-lel frissül.
 
+git status=
+A git status parancs megjeleníti a munkakönyvtár és az állomásozási terület állapotát. Lehetővé teszi, hogy 
+megtekinthesse, mely változtatásokat hajtották végre, melyeket nem, és mely fájlokat nem követi nyomon a Git.
+Az állapotkimenet nem mutat semmilyen információt az elkötelezett projekt előzményeiről.
 
-
-
+git log=
+A git log parancs a Git alapvető eszköze a lerakat előzményeinek feltárására. Ezt használja, amikor meg kell találnia
+egy projekt egy adott verzióját, vagy ki kell találnia, hogy milyen változt
+atásokat kell bevezetnie egy szolgáltatási ágba való egyesítéssel.
