@@ -1,1 +1,11 @@
+git init=
+A git init parancsot egy új git tárhely inicializálására vagy egy meglévő újrainicializálására használják. A git init parancs átalakítja az aktuális könyvtárat egy Git tárolóvá, azaz egy . git könyvtár az objektumok alkönyvtáraival, refs/heads, refs/tags és sablonfájlokkal. Ez egy új fő ágat is létrehoz.
+git add= 
+
+
+
+
+
+
+
 
